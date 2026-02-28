@@ -1,0 +1,6 @@
+@MediatRwebApiASPCorewithEF_HostAddress = http://localhost:5212
+
+GET {{MediatRwebApiASPCorewithEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

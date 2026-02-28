@@ -1,0 +1,12 @@
+# Build folders
+bin/
+obj/
+.vs/
+
+# User files
+*.user
+*.suo
+
+# Database/local config
+*.db
+appsettings.Development.json

@@ -1,13 +1,29 @@
 # Student Management Web API (.NET 8)
 
-This is a sample ASP.NET Core Web API project using:
+This project is a RESTful ASP.NET Core Web API developed using .NET 8 and Entity Framework Core. It demonstrates real-world backend development practices including DTO-based architecture, entity relationships, soft delete implementation, and automatic database migration.
 
-- .NET 8
-- Entity Framework Core
-- SQL Server LocalDB
-- DTO Pattern
-- Soft Delete
+The application manages students and their addresses using a one-to-many relationship model. The project is designed with clean API principles and can be cloned and executed locally with minimal setup.
+
+## Key Features
+
+- ASP.NET Core Web API (.NET 8)
+- Entity Framework Core (Code First Approach)
+- DTO Pattern (Create & Response DTOs)
 - One-to-Many Relationship (Student → Address)
+- Soft Delete Implementation
+- Automatic Database Migration on Startup
+- Seed Data Initialization
+- Swagger API Documentation
+- Clean and Maintainable Architecture
+
+## Architecture Highlights
+
+- Separation of Entities and DTOs
+- Prevention of circular reference issues
+- Repository-ready configuration for easy onboarding
+- Database auto-creation using EF Core migrations
+
+This project serves as a foundation for learning advanced concepts such as Microservices Architecture, Dockerization, and Azure Cloud Deployment.
 
 ---
 
